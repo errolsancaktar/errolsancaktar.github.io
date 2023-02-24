@@ -14,12 +14,10 @@ $(RESUME_TARGET): resume_config.yaml
 	mkdir -p $(dir $@)
 	$(call display_info, "Create $@ from $< with language $(LANGUAGE)")
 	pwd
-	ls -lah
-	ls -lah ../
-	ls -lah ../../
-	ls -lah ../resumy
 	python3 -m pip install --upgrade ../resumy/dist/*.whl
 	python3 ../resumy/src/resumy/resumy.py build $< -o $@
+	ls -lah
+	tree
 	$(call display_info, "Successfully created $@")
 
 clean:
