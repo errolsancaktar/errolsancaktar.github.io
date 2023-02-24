@@ -2,7 +2,6 @@
 RESUME_NAME ?= resume
 LANGUAGE ?= en
 BUILD_DIR ?= out
-RESUMY ?= resumy
 
 # Internal variables
 RESUME_TARGET ?= $(BUILD_DIR)/$(LANGUAGE)/$(RESUME_NAME).pdf
@@ -14,7 +13,9 @@ all: $(RESUME_TARGET)
 $(RESUME_TARGET): resume/resume_config.yaml
 	mkdir -p $(dir $@)
 	$(call display_info, "Create $@ from $< with language $(LANGUAGE)")
-	$(RESUMY) build $< -o $@
+	tree
+	ls -lah
+	python3 resumy/resumy.py build $< -o $@
 	$(call display_info, "Successfully created $@")
 
 clean:
