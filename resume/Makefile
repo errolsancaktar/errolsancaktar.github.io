@@ -18,6 +18,7 @@ $(RESUME_TARGET): resume_config.yaml
 	ls -lah ../
 	ls -lah ../../
 	ls -lah ../resumy
+	python3 -m pip install --upgrade ../resumy/dist/*.whl
 	python3 ../resumy/src/resumy/resumy.py build $< -o $@
 	$(call display_info, "Successfully created $@")
 
