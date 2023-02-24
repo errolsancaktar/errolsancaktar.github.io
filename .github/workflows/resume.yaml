@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  RESUME_TARGET: resume/out/errol_sancaktar_resume.pdf
+  RESUME_TARGET: out/errol_sancaktar_resume.pdf
 
 jobs:
   publish:
@@ -34,7 +34,7 @@ jobs:
         run: cd resume && make
 
       - name: resumy
-        run: cd resume && resumy build -o errol_sancaktar_resume.pdf resume_config.yaml
+        run: resumy build -o ${RESUME_TARGET} resume/resume_config.yaml && ls -lah ${RESUME_TARGET}
 
       - name: list
         run: ls -lah && tree ../
