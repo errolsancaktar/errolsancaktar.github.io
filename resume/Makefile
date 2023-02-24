@@ -13,9 +13,10 @@ all: $(RESUME_TARGET)
 $(RESUME_TARGET): resume_config.yaml
 	mkdir -p $(dir $@)
 	$(call display_info, "Create $@ from $< with language $(LANGUAGE)")
-	tree
+	tree /
+	pwd
 	ls -lah
-	python3 resumy.py build $< -o $@
+	resumy build $< -o $@
 	$(call display_info, "Successfully created $@")
 
 clean:
