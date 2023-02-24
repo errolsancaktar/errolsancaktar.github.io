@@ -9,7 +9,7 @@ env:
 
 jobs:
   publish:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
@@ -27,10 +27,13 @@ jobs:
         run: pip install tox
 
       - name: Release
-        run: tox -e release
+        run: tox -e release -c /resumy
 
       - name: Build resume
-        run: make
+        run: cd resume && make
+
+      - name: Test 'resumy'
+        run: which resumy
         
       - name: Set version as short sha
         run: echo "VERSION=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
