@@ -16,10 +16,6 @@ $(RESUME_TARGET): resume_config.yaml
 	pwd
 	tree
 	python3 -m pip install --upgrade ../resumy/dist/*.whl
-	resumy build $< -o $@
-	ls -lah
-	ls -lah resume/out
-	tree ../
 	$(call display_info, "Successfully created $@")
 
 clean:
