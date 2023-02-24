@@ -11,7 +11,7 @@ display_info = @echo -e "[\E[32;01m*\E[0m]$(1)"
 
 all: $(RESUME_TARGET)
 
-$(RESUME_TARGET): resume_config.yaml
+$(RESUME_TARGET): resume/resume_config.yaml
 	mkdir -p $(dir $@)
 	$(call display_info, "Create $@ from $< with language $(LANGUAGE)")
 	$(RESUMY) build $< -o $@
