@@ -14,6 +14,7 @@ $(RESUME_TARGET): resume_config.yaml
 	mkdir -p $(dir $@)
 	$(call display_info, "Create $@ from $< with language $(LANGUAGE)")
 	pwd
+	tree
 	python3 -m pip install --upgrade ../resumy/dist/*.whl
 	resumy build $< -o $@
 	ls -lah
