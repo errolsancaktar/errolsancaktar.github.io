@@ -15,6 +15,9 @@ $(RESUME_TARGET): resume_config.yaml
 	$(call display_info, "Create $@ from $< with language $(LANGUAGE)")
 	pwd
 	ls -lah
+	ls -lah ../
+	ls -lah ../../
+	ls -lah ../resumy
 	python3 ../resumy/src/resumy/resumy.py build $< -o $@
 	$(call display_info, "Successfully created $@")
 
