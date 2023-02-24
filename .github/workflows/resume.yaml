@@ -27,7 +27,7 @@ jobs:
         run: pip install tox
 
       - name: Release
-        run: tox -e release -c /resumy
+        run: cd resumy && tox -e release
 
       - name: Build resume
         run: cd resume && make
