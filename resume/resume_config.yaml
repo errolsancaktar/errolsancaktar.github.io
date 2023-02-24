@@ -1,0 +1,169 @@
+basics:
+  email: career@sancaktar.net
+  location:
+    city: Aurora
+    countryCode: Colorado
+  name: Errol A. Sancaktar
+#  phone: (330) 541-5919
+  profiles:
+  - network: Github
+    url: https://github.com/errolsancaktar
+    username: errolsancaktar
+  - network: Linkedin
+    url: https://www.linkedin.com/in/errolsancaktar/
+    username: errolsancaktar
+meta:
+  breaks_before:
+    education: true
+    references: true
+education:
+- area: Bachelor of Arts
+  institution: Kent State University
+  endDate: '2008'
+- area: Google Professional Cloud Architect
+  endDate: '2021'
+- area: AWS Certified Solutions Architect
+  endDate: '2018'
+- area: Red Hat Certified Systems Administrator
+  endDate: '2014'
+- area: CompTIA A+ Certification
+  endDate: '2008'
+skills:
+- keywords:
+  - Google Cloud
+  - Amazon AWS
+  name: Cloud Technologies
+- keywords:
+  - Ansible
+  - Teraform
+  name: Infrastructure as Code
+- keywords:
+  - Python
+  - Go
+  - C/C++
+  name: Languages
+- keywords:
+  - AWS
+  - GCP
+  - Docker
+  - Kubernetes
+  name: Devops
+- keywords:
+  - VIM
+  - GIT Source Control
+  name: Tools
+- keywords:
+  - Linux
+  - FreeBSD
+  - MacOS
+  - Microsoft
+  name: OS
+references:
+- name: Will Weber
+  title: Key Enterprise Architect, Google
+  email: wweber@google.com
+  phone: '650-499-7793'
+- name: Enoch Moeller
+  title: Solutions Consultant Manager, Google
+  email: moellere@google.com
+  phone: '828-238-3713'
+- name: Geoff Cardamone
+  title: Infrastructure Cloud Consultant, Google Public Sector
+  email: cardamone@google.com
+  phone: '917-353-2876'
+- name: Igor Bondarenko
+  title: Chief Technology Officer, SEAM Group
+  email: ibondare@gmail.com
+  phone: '216-386-8446'
+- name: Andrew Martin
+  title: Senior Linux System Administrator, MIT Lincoln Laboratory
+  email: andrew@getmartin.com
+  phone: '603-785-6481'
+work:
+- highlights:
+  - Work with customer technical leads, architects, customer managers, and partners to plan and deliver successful implementations of cloud infrastructure projects. Be a trusted advisor to decision makers throughout the engagement.
+  - Work with internal specialists, product, and engineering teams to package best practices and lessons learned into thought leadership, methodologies, and published assets.
+  - Interact with sales, partners, and customer technical stakeholders to manage project scope, priorities, deliverables, risks/issues, and timelines for successful customer outcomes.
+  - Advocate for customer needs in order to overcome adoption blockers and drive feature development.
+  - Design solution architectures and manage the deployment of cloud based, distributed, and virtualized infrastructure solutions according to complex customer requirements and implementation best practices.
+  - Development and implementation of offline cloud technologies, incorporating cloud methodologies with secure, offline data center hardware.
+  name: Google
+  position: Infrastructure Cloud Consultant
+  startDate: '2021-09-01'
+- endDate: '2021-09-01'
+  highlights:
+  - Helped to craft and execute strategies to drive customers’ adoption and use of AWS services.
+  - Represented AWS within a customer’s environment, and drove discussions with senior leadership regarding incidents, trade-offs, support, and risk management.
+  - Acted as a voice for customers’ business and architectural needs within AWS.
+  - Assisted in resolving large-scale and business-critical issues by connecting my customers with internal experts and service teams.
+  - Worked with my customers to develop strategic long-term plans while simplifying their architecture.
+  - Collaborated with sales, partners, and customer technical stakeholders to manage project scope, priorities, deliverables, risks/issues, and timelines for successful customer outcomes.
+  name: Amazon Web Services
+  position: Technical Account Manager
+  startDate: '2019-03-01'
+- endDate: '2019-03-01'
+  highlights:
+  - Responsible for all infrastructure both on-premise and in AWS including Networking and VoIP.
+  - Management of systems staff including DBA’s, User Support, and Systems Administrators.
+  - Implementation of multiple open-source technologies for networking and servers.
+  - Implemented standardized desktop management, including windows imaging procedures.
+  - Upgraded building wifi from legacy system to Meraki cloud-controlled APs.
+  - Improved and maintained a custom in-house Warehouse Management System including wireless devices, pick and pack stations, as well as inventory systems/devices.
+  - Negotiated beneficial rates for telephony and internet at ECS home office as well as remote sites.
+  - Established standardized digital signage solutions for employee engagement and knowledge transfer.
+  - Implemented native AWS tools to allow our customer-facing websites to scale with demand more easily.
+  name: ECS Tuning
+  position: IT/Cloud Manager
+  startDate: '2017-07-01'
+- endDate: '2017-07-01'
+  highlights:
+  - Responsible for the creation of Information Services “Concierge”, which acted as the first-line contact for all enterprise service requests. This involved services like virtual machine creation up to full network and systems integrations for our power plant operations software.
+  - Implemented Red Hat Cloudforms and Ansible Tower in conjunction with our Concierge process. This will allow our end-users to utilize our service catalog to request cloud resources such as RDS and EC2 without the need to understand the AWS environment.
+  - Planned and wrote RFP for the upgrade of our IBM Spectrum Protect backup and disaster recovery environment. This is a multi-year implementation involving the replacement of our current quantum system both on-premise and at our backup data center.
+  - Created a cloud team to focus on our growing presence in AWS and other SaaS applications. Built team from both the server group and client services to support all aspects of cloud architecture.
+  - Managed staff of 17 full-time IT staff including 2 managers.
+  name: Kent State University
+  position: Director, Infrastructure Engineering
+  startDate: '2016-10-01'
+- endDate: '2016-10-01'
+  highlights:
+  - Worked directly for Kent State CIO, began planning of our division-wide restructuring. This involved combining our server team with our client services teams into a new department which I headed called Infrastructure Engineering.
+  - Responsible for researching and planning and maintaining our ongoing division cloud strategy.
+  name: Kent State University
+  position: Manager, Information Services
+  startDate: '2016-06-01'
+- endDate: '2016-06-01'
+  highlights:
+  - Planned and implemented the first of its kind Virtual Desktop Infrastructure (VDI) for the college. This involved utilizing Nutanix hyper-converged server infrastructure as well as thin clients for end-users in a scale-up state-of-the-art learning center. It has successfully assisted over 300 students to complete their coursework in the designed collaborative process.
+  - Integration of Single Sign-On across Linux, Windows, and Apple platforms through custom-written scripts and configurations. This has allowed many of the highly specialized scientific systems to integrate with other services available on-premise.
+  - Management of multiple computational clusters totaling 100+ nodes ranging from traditional computation to Beowulf design clusters.
+  - Migration of physical servers to VMWare Vcenter environment now totaling 120 Virtual Machines
+  - Managed staff of 12 full-time IT staff and 10 part-time student employees.
+  name: Kent State University
+  position: Information Services Team Leader, College of Arts and Sciences
+  startDate: '2015-04-01'
+- endDate: '2015-04-01'
+  highlights:
+  - Implemented four-node VMware vCenter environment for college and migrated virtual machines. This allowed the decommissioning of 35 physical servers.
+  - Created additional 90 servers on this vCenter environment, maintaining ongoing support and updates.
+  - Developed many scripts to automate user permissions, file share creation, active directory user, and computer group management. This allowed for savings of approximately ¼ FTE.
+  - Managed two full-time IT staff and 8 part-time student employees.
+  name: Kent State University
+  position: IT Manager, College of Arts and Sciences
+  startDate: '2013-06-01'
+- endDate: '2013-06-01'
+  name: Kent State University
+  position: Various IT Roles
+  startDate: '2006-06-01'
+# projects:
+# - description: a multiplatform gameboy engine
+#   keywords:
+#   - Rust
+#   - React.js
+#   name: padme
+#   url: https://padme.cc
+# - description: A special lightsaber
+#   keywords:
+#   - C++
+#   - Qt
+#   name: lightsaber
