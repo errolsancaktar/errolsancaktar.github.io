@@ -13,7 +13,6 @@ all: $(RESUME_TARGET)
 $(RESUME_TARGET): resume_config.yaml
 	mkdir -p $(dir $@)
 	$(call display_info, "Create $@ from $< with language $(LANGUAGE)")
-	tree /
 	pwd
 	ls -lah
 	resumy build $< -o $@
