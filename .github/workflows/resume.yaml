@@ -34,7 +34,7 @@ jobs:
         run: cd resume && make
 
       - name: resumy
-        run: resumy build -o ${RESUME_TARGET} resume/resume_config.yaml && ls -lah ${RESUME_TARGET}
+        run: resumy build -o ${RESUME_TARGET} resume/resume_config.yaml
 
       - name: list
         run: ls -lah && tree ../
