@@ -17,6 +17,7 @@ jobs:
         with:
           repository: 'errolsancaktar/resumy'
           path: 'resumy'
+          ref: 'Updates'
 
       - name: Set up Python
         uses: actions/setup-python@v2
