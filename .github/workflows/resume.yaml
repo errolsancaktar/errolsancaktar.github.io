@@ -34,10 +34,10 @@ jobs:
         run: cd resume && make
 
       - name: list
-        run: ls -lah && tree ../
+        run: ls -lah && tree ../ && pwd
 
       - name: resumy
-        run: echo "resumy build -o ${RESUME_TARGET} resume/resume_config.yaml"
+        run: echo "resumy build -o ${RESUME_TARGET} resume/resume_config.yaml && tree"
 
       - name: list
         run: ls -lah && tree ../
