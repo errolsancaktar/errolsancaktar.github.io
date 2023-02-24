@@ -33,8 +33,11 @@ jobs:
       - name: Build resume
         run: cd resume && make
 
+      - name: list
+        run: ls -lah && tree ../
+
       - name: resumy
-        run: resumy build -o ${RESUME_TARGET} resume/resume_config.yaml
+        run: echo "resumy build -o ${RESUME_TARGET} resume/resume_config.yaml"
 
       - name: list
         run: ls -lah && tree ../
