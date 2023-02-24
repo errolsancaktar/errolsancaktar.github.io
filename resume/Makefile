@@ -19,7 +19,7 @@ $(RESUME_TARGET): resume_config.yaml
 	resumy build $< -o $@
 	ls -lah
 	ls -lah resume/out
-	tree
+	tree ../
 	$(call display_info, "Successfully created $@")
 
 clean:
