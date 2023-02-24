@@ -15,7 +15,7 @@ $(RESUME_TARGET): resume_config.yaml
 	$(call display_info, "Create $@ from $< with language $(LANGUAGE)")
 	pwd
 	python3 -m pip install --upgrade ../resumy/dist/*.whl
-	resumy build $< -o $@
+	python3 ../resumy/src/resumy/resumy.py build $< -o $@
 	ls -lah
 	tree
 	$(call display_info, "Successfully created $@")
