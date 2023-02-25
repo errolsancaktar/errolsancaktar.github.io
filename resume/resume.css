@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "prairie";
+    src:  url("fonts/prairie.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.icon {
+    font-family: 'prairie';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.icon-link:before {
+    content: "\e900";
+}
+.icon-location-pin:before {
+    content: "\e901";
+}
+.icon-mail:before {
+    content: "\e902";
+}
+.icon-phone:before {
+    content: "\e903";
+}
+.icon.icon-github:before {
+    content: "\e904";
+}
+.icon-linkedin:before {
+    content: "\e905";
+}
+@page {
+    size: letter portrait;
+    margin: 0.5cm 1cm;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Roboto';
+    font-size: 10pt;
+    color: #333333;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 24px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #ad0a0a;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul.header, ul.keyval-list, ul.work-list, ul.projects {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.header {
+    font-size: 9pt;
+    text-align: center;
+}
+
+ul.header > li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.header > li + li::before {
+    content: " | ";
+    padding: 0 5px;
+}
+
+ul.header .icon {
+    font-size: 11pt;
+    margin-right: 2px;
+}
+
+.key-title {
+    font-weight: bold;
+}
+
+ul.work-list > li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.work-subheader {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.work-company {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.work-date {
+    color: #555;
+}
+
+.work-title {
+    font-weight: bold;
+}
+
+.work-description {
+    clear: both;
+    list-style-type: '•   ';
+    padding: 0 24px;
+    font-size: 10pt;
+    margin-bottom: 10px;
+}
+.topcorner{
+    position:absolute;
+    top:0;
+    right:0;
+   }
