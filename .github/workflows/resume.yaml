@@ -38,7 +38,7 @@ jobs:
 
       - name: resumy
         #run: echo "resumy build -o ${RESUME_TARGET} resume/resume_config.yaml && tree"
-        run: cd resume && resumy build -o errol_sancaktar_resume.pdf resume_config.yaml && tree
+        run: cd resume && resumy build -o errol_sancaktar_resume.pdf -w "" resume_config.yaml
 
       - name: list
         run: ls -lah && tree ../
