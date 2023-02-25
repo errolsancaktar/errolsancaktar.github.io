@@ -38,7 +38,7 @@ jobs:
 
       - name: Create Resume and Webpage
         #run: echo "resumy build -o ${RESUME_TARGET} resume/resume_config.yaml && tree"
-        run: resumy build -o errol_sancaktar_resume.pdf -f "resume" -w "" resume_config.yaml
+        run: resumy build -o errol_sancaktar_resume.pdf -f "resume" -w "" resume/resume_config.yaml
 
       - name: list
         run: ls -lah && tree ../
