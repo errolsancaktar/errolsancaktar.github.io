@@ -36,7 +36,6 @@ skills:
 - keywords:
   - Ansible
   - Teraform
-  - ArgoCD
   name: Infrastructure as Code
 - keywords:
   - Python
