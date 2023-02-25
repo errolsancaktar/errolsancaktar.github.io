@@ -34,8 +34,7 @@
 .icon-linkedin:before {
     content: "\e905";
 }
-#noprint { display: none; }
- #print { display: block; }@page {
+@page {
     size: letter portrait;
     margin: 0.5cm 1cm;
 }
