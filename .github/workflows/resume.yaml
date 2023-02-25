@@ -3,7 +3,7 @@ name: release
 on:
   push:
     branches: [ main ]
-    paths: ['resume/resume_config.yaml']
+    paths: ['resume/**']
 
 env:
   RESUME_TARGET: out/errol_sancaktar_resume.pdf
