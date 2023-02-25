@@ -68,7 +68,7 @@ jobs:
 
       - name: commit
         run: |
-          # Stage the file, commit and push
+          # Stage the file, commit and push to pages
           cd resume
           git add *
           git commit -m "New Resume Version"
