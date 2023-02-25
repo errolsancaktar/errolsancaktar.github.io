@@ -34,11 +34,15 @@ jobs:
         run: cd resume && make
 
       - name: Create Resume and Webpage
+        #run: echo "resumy build -o ${RESUME_TARGET} resume/resume_config.yaml && tree"
         run: resumy build -o errol_sancaktar_resume.pdf -f "resume" -w "" --buildweb resume/resume_config.yaml
 
       - name: list
         run: ls -lah && tree ../
 
+      # - name: Test 'resumy'
+      #   run: which resumy
+        
       - name: Set version as short sha
         run: echo "VERSION=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
 
@@ -47,13 +51,14 @@ jobs:
 
       - name: Create release
         id: create_release
-        uses: elgohr/Github-Release-Action@v4
+        uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ env.VERSION }}
-          title: Release ${{ env.VERSION }}
-          
+          release_name: Release ${{ env.VERSION }}
+          draft: false
+          prerelease: false
 
       - name: setup git config
         run: |
