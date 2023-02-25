@@ -40,9 +40,6 @@ jobs:
       - name: list
         run: ls -lah && tree ../
 
-      # - name: Test 'resumy'
-      #   run: which resumy
-        
       - name: Set version as short sha
         run: echo "VERSION=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
 
