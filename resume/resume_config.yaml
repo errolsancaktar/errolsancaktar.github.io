@@ -12,6 +12,7 @@ basics:
   - network: Linkedin
     url: https://www.linkedin.com/in/errolsancaktar/
     username: errolsancaktar
+  urlname: "Current Resume"
   url: https://errolsancaktar.github.io/resume
 meta:
   breaks_before:
