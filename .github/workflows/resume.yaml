@@ -30,15 +30,15 @@ jobs:
       - name: Release
         run: cd resumy && tox -e build
 
-      - name: Build resume
+      - name: Build resumy
         run: cd resume && make
 
       - name: list
         run: ls -lah && tree ../ && pwd
 
-      - name: resumy
+      - name: Create Resume and Webpage
         #run: echo "resumy build -o ${RESUME_TARGET} resume/resume_config.yaml && tree"
-        run: cd resumy build -o errol_sancaktar_resume.pdf -f "resume" -w "" resume_config.yaml
+        run: resumy build -o errol_sancaktar_resume.pdf -f "resume" -w "" resume_config.yaml
 
       - name: list
         run: ls -lah && tree ../
