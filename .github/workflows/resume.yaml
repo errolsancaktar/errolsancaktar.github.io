@@ -33,12 +33,9 @@ jobs:
       - name: Build resumy
         run: cd resume && make
 
-      - name: list
-        run: ls -lah && tree ../ && pwd
-
       - name: Create Resume and Webpage
         #run: echo "resumy build -o ${RESUME_TARGET} resume/resume_config.yaml && tree"
-        run: resumy build -o errol_sancaktar_resume.pdf -f "resume" -w "" resume/resume_config.yaml
+        run: resumy build -o errol_sancaktar_resume.pdf -f "resume" -w "" --buildweb resume/resume_config.yaml
 
       - name: list
         run: ls -lah && tree ../
@@ -46,30 +43,33 @@ jobs:
       # - name: Test 'resumy'
       #   run: which resumy
         
-      # - name: Set version as short sha
-      #   run: echo "VERSION=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
+      - name: Set version as short sha
+        run: echo "VERSION=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
 
-      # - name: Get asset name
-      #   run: echo "RESUME_NAME=`basename ${RESUME_TARGET}`" >> $GITHUB_ENV
+      - name: Get asset name
+        run: echo "RESUME_NAME=`basename ${RESUME_TARGET}`" >> $GITHUB_ENV
 
-      # - name: Create release
-      #   id: create_release
-      #   uses: actions/create-release@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     tag_name: ${{ env.VERSION }}
-      #     release_name: Release ${{ env.VERSION }}
-      #     draft: false
-      #     prerelease: false
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.VERSION }}
+          release_name: Release ${{ env.VERSION }}
+          draft: false
+          prerelease: false
 
-      # - name: Upload pdf
-      #   id: upload-release-pdf
-      #   uses: actions/upload-release-asset@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
-      #     asset_path: ${{ env.RESUME_TARGET }}
-      #     asset_name: ${{ env.RESUME_NAME }}
-      #     asset_content_type: application/pdf
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: commit
+        run: |
+          # Stage the file, commit and push
+          cd resume
+          git add *
+          git commit -m "resume Update"
+          git push
