@@ -71,5 +71,5 @@ jobs:
           # Stage the file, commit and push
           cd resume
           git add *
-          git commit -m "resume Update"
+          git commit -m "New Resume Version"
           git push
