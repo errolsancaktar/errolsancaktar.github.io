@@ -51,11 +51,11 @@ skills:
   - GCP
   - Docker
   - Kubernetes
-  name: Devops
+  - CI/CD
+  name: Platforms
 - keywords:
   - VIM
   - GIT
-  - CI/CD
   name: Tools
 - keywords:
   - Linux
@@ -109,9 +109,9 @@ work:
 - endDate: '2019-03-01'
   highlights:
   - Responsible for all infrastructure both on-premise and in AWS including Networking and VoIP.
-  - Management of systems staff including DBA’s, User Support, and Systems Administrators.
-  - Implementation of multiple open-source technologies for networking and servers.
-  - Implemented standardized desktop management, including windows imaging procedures.
+  - Managed systems staff including DBA’s, User Support, and Systems Administrators.
+  - Implemented multiple open-source technologies for networking and servers.
+  - Created standardized desktop management, including windows imaging procedures.
   - Upgraded building wifi from legacy system to Meraki cloud-controlled APs.
   - Improved and maintained a custom in-house Warehouse Management System including wireless devices, pick and pack stations, as well as inventory systems/devices.
   - Negotiated beneficial rates for telephony and internet at ECS home office as well as remote sites.
@@ -156,10 +156,6 @@ work:
   name: Kent State University
   position: IT Manager, College of Arts and Sciences
   startDate: '2013-06-01'
-- endDate: '2013-06-01'
-  name: Kent State University
-  position: Various IT Roles
-  startDate: '2006-06-01'
 # projects:
 # - description: a multiplatform gameboy engine
 #   keywords:
