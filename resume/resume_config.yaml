@@ -16,6 +16,7 @@ basics:
 meta:
   breaks_before:
     education: true
+    certificates: false
     references: true
 education:
 - area: Bachelor of Arts
