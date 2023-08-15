@@ -21,14 +21,20 @@ education:
 - area: Bachelor of Arts
   institution: Kent State University
   endDate: '2008'
-- area: Google Professional Cloud Architect
-  endDate: '2021'
-- area: AWS Certified Solutions Architect
-  endDate: '2018'
-- area: Red Hat Certified Systems Administrator
-  endDate: '2014'
-- area: CompTIA A+ Certification
-  endDate: '2008'
+certificates:
+- name: Terraform Associate
+  date: '2023'
+  url: https://www.credly.com/badges/3658f00d-f021-493b-a231-79b6a1d7c504
+- name: Google Professional Cloud Architect
+  date: '2021'
+  url: https://www.credential.net/d27cd19c-3f1d-46ee-9ec0-e5e7a02b8d3d#gs.21c11h
+- name: AWS Certified Solutions Architect
+  date: '2018'
+  url: https://www.credly.com/badges/c3b40133-809f-424b-8d13-dad2d0d3b73a
+- name: Red Hat Certified Systems Administrator
+  date: '2014'
+- name: CompTIA A+ Certification
+  date: '2008'
 skills:
 - keywords:
   - Google Cloud
@@ -81,16 +87,28 @@ references:
   phone: '603-785-6481'
 work:
 - highlights:
-  - Work with technical leads, architects, and partners to deliver successful implementations of cloud infrastructure projects.
-  - Implement as well as refactor infrastructure pipelines, deployment methodologies, and automations.
-  - Develop architectural designs, create reference architectures, and perform cloud reviews to implement effective environments following industry best practices.
-  - Implement infrastructure-as-code systems to enhance idempotency and replicability.
-  - Work as a Technical Project Manager on larger scale projects to coordinate many engineers ensuring both business and technical requirements are being met.
-  - Integrate hybrid cloud infrastructures to give customers the ability to use best in breed technologies across clouds while controlling costs.
-  - Work on the Google Distributed Cloud Hosted team, incorporating cloud methodologies with secure, offline data center hardware in IL5 Fedramp environments.
+  - Architected and implemented solutions across AWS, Azure, and GCP, utilizing IAC tools to ensure infrastructure consistency and manageability.
+  - Designed and built CI/CD pipelines for infrastructure deployment allowing for standardized deployment procedures.
+  - Collaborated with cross-functional teams to gather requirements and translate them into cloud-based solutions that align with business goals.
+  - Conducted architecture reviews and provided technical guidance to ensure adherence to best practices and security standards.
+  - Worked closely with clients to assess their cloud infrastructure needs, designing and implementing solutions that met their specific business requirements.
+  - Created detailed architecture diagrams, documentation, and presentations to communicate design concepts and solutions to technical and non-technical stakeholders.
+  - Provided training and mentoring to junior team members, fostering skill development and knowledge sharing within the team.
+  name: LucidPoint
+  position: Cloud Architect
+  startDate: '2021-04-12'
+- highlights:
+  - Worked with technical leads, architects, and partners to deliver successful implementations of cloud infrastructure projects.
+  - Implemented as well as refactored infrastructure pipelines, deployment methodologies, and automations.
+  - Developed architectural designs, created reference architectures, and performed cloud reviews to implement effective environments following industry best practices.
+  - Implemented infrastructure-as-code systems to enhance idempotency and replicability.
+  - Worked as a Technical Project Manager on larger scale projects coordinating many engineers ensuring both business and technical requirements were met.
+  - Integrated hybrid cloud infrastructures giving customers the ability to use best in breed technologies across clouds while controlling costs.
+  - Worked on Google Distributed Cloud Hosted architecture incorporating cloud methodologies with secure, offline data center hardware in IL5 Fedramp environments.
   name: Google
   position: Infrastructure Cloud Consultant
   startDate: '2021-09-01'
+  endDate: '2023-03-31'
 - endDate: '2021-09-01'
   highlights:
   - Created and executed strategies to drive customer adoption and use of AWS services.
