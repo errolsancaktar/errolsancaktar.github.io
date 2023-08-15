@@ -40,11 +40,15 @@ skills:
 - keywords:
   - Google Cloud
   - Amazon AWS
+  - Microsoft Azure
+  - DevOps
+  - Pipeline Architecture
   name: Cloud Technologies
 - keywords:
   - Ansible
   - Terraform
   - ArgoCD
+  - Pulumi
   name: Infrastructure as Code
 - keywords:
   - Python
@@ -55,6 +59,7 @@ skills:
 - keywords:
   - AWS
   - GCP
+  - Azure
   - Docker
   - Kubernetes
   - CI/CD
@@ -124,8 +129,8 @@ work:
   name: Amazon Web Services
   position: Technical Account Manager
   startDate: '2019-03-01'
-- endDate: '2019-03-01'
   url: https://aws.amazon.com/
+- endDate: '2019-03-01'
   highlights:
   - Responsible for all infrastructure both on-premise and in AWS including Networking and VoIP.
   - Managed systems staff including DBAs, End User Support, and Systems Administrators.
