@@ -17,7 +17,7 @@ meta:
   breaks_before:
     education: true
     certificates: false
-    references: true
+    references: false
 education:
 - area: Bachelor of Arts
   institution: Kent State University
@@ -98,6 +98,7 @@ work:
   name: LucidPoint
   position: Cloud Architect
   startDate: '2021-04-12'
+  url: https://www.lucidpoint.io/
 - highlights:
   - Worked with technical leads, architects, and partners to deliver successful implementations of cloud infrastructure projects.
   - Implemented as well as refactored infrastructure pipelines, deployment methodologies, and automations.
@@ -110,6 +111,7 @@ work:
   position: Infrastructure Cloud Consultant
   startDate: '2021-09-01'
   endDate: '2023-03-31'
+  url: https://cloud.google.com/
 - endDate: '2021-09-01'
   highlights:
   - Created and executed strategies to drive customer adoption and use of AWS services.
@@ -123,6 +125,7 @@ work:
   position: Technical Account Manager
   startDate: '2019-03-01'
 - endDate: '2019-03-01'
+  url: https://aws.amazon.com/
   highlights:
   - Responsible for all infrastructure both on-premise and in AWS including Networking and VoIP.
   - Managed systems staff including DBAs, End User Support, and Systems Administrators.
@@ -136,6 +139,7 @@ work:
   name: ECS Tuning
   position: IT/Cloud Manager
   startDate: '2017-07-01'
+  url: https://www.ecstuning.com/
 - endDate: '2017-07-01'
   highlights:
   - Responsible for the creation of Information Services “Concierge” position, which acted as the first-line contact for all enterprise service requests. This involved services like virtual machine creation up to full network and systems integrations for our power plant operations software.
@@ -145,6 +149,7 @@ work:
   name: Kent State University
   position: Director, Infrastructure Engineering
   startDate: '2016-10-01'
+  url: https://www.kent.edu/
 - endDate: '2016-10-01'
   highlights:
   - Planned and implemented the first of its kind Virtual Desktop Infrastructure (VDI) for the college. This involved utilizing Nutanix hyper-converged server infrastructure as well as thin clients for end-users in a scale-up state-of-the-art learning center. It has successfully assisted over 300 students to complete their coursework in the designed collaborative process.
@@ -154,6 +159,7 @@ work:
   name: Kent State University
   position: Information Services Team Leader
   startDate: '2015-04-01'
+  url: https://www.kent.edu/
 - endDate: '2015-04-01'
   highlights:
   - Implemented four-node VMware vCenter environment for college and migrated virtual machines. This allowed the decommissioning of 35 physical servers.
@@ -163,3 +169,4 @@ work:
   name: Kent State University
   position: IT Manager, College of Arts and Sciences
   startDate: '2006-06-01'
+  url: https://www.kent.edu/
