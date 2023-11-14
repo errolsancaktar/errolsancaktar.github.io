@@ -21,7 +21,6 @@ meta:
 education:
 - area: Bachelor of Arts
   institution: Kent State University
-  endDate: '2008'
 certificates:
 - name: Terraform Associate
   date: '2023'
@@ -102,7 +101,7 @@ work:
   - Provided training and mentoring to junior team members, fostering skill development and knowledge sharing within the team.
   name: LucidPoint
   position: Cloud Architect
-  startDate: '2023-04-12'
+  startDate: '2023'
   url: https://www.lucidpoint.io/
 - highlights:
   - Worked with technical leads, architects, and partners to deliver successful implementations of cloud infrastructure projects.
@@ -114,10 +113,10 @@ work:
   - Worked on Google Distributed Cloud Hosted architecture incorporating cloud methodologies with secure, offline data center hardware in IL5 Fedramp environments.
   name: Google
   position: Infrastructure Cloud Consultant
-  startDate: '2021-09-01'
-  endDate: '2023-03-31'
+  startDate: '2021'
+  endDate: '2023'
   url: https://cloud.google.com/
-- endDate: '2021-09-01'
+- endDate: '2021'
   highlights:
   - Created and executed strategies to drive customer adoption and use of AWS services.
   - Performed montly and quarterly business reviews to discuss cloud spend, ongoing projects, and upcoming implementations.
@@ -128,9 +127,9 @@ work:
   - Interfaced with sales, partners, and customer technical stakeholders to manage project scope, priorities, deliverables, risks/issues, and timelines for successful customer outcomes.
   name: Amazon Web Services
   position: Technical Account Manager
-  startDate: '2019-03-01'
+  startDate: '2019'
   url: https://aws.amazon.com/
-- endDate: '2019-03-01'
+- endDate: '2019'
   highlights:
   - Responsible for all infrastructure both on-premise and in AWS including Networking and VoIP.
   - Managed systems staff including DBAs, End User Support, and Systems Administrators.
@@ -143,9 +142,9 @@ work:
   - Deployed ansible and terraform to environment allowing for better control of deployments.
   name: ECS Tuning
   position: IT/Cloud Manager
-  startDate: '2017-07-01'
+  startDate: '2017'
   url: https://www.ecstuning.com/
-- endDate: '2017-07-01'
+- endDate: '2017'
   highlights:
   - Responsible for the creation of Information Services “Concierge” position, which acted as the first-line contact for all enterprise service requests. This involved services like virtual machine creation up to full network and systems integrations for our power plant operations software.
   - Implemented Red Hat Cloudforms and Ansible Tower in conjunction with our Concierge process. This will allow our end-users to utilize our service catalog to request cloud resources such as RDS and EC2 without the need to understand the AWS environment.
@@ -153,9 +152,9 @@ work:
   - Created a cloud center of excellence to focus on our growing presence in AWS and other SaaS applications. Built team from both the server group and client services to support all aspects of cloud architecture.
   name: Kent State University
   position: Director, Infrastructure Engineering
-  startDate: '2016-10-01'
+  startDate: '2016'
   url: https://www.kent.edu/
-- endDate: '2016-10-01'
+- endDate: '2016'
   highlights:
   - Planned and implemented the first of its kind Virtual Desktop Infrastructure (VDI) for the college. This involved utilizing Nutanix hyper-converged server infrastructure as well as thin clients for end-users in a scale-up state-of-the-art learning center. It has successfully assisted over 300 students to complete their coursework in the designed collaborative process.
   - Integration of Single Sign-On across Linux, Windows, and Apple platforms through custom-written scripts and configurations. This has allowed many of the highly specialized scientific systems to integrate with other services available on-premise.
@@ -163,9 +162,9 @@ work:
   - Migration of physical servers to VMWare Vcenter environment now totaling 120 Virtual Machines
   name: Kent State University
   position: Information Services Team Leader
-  startDate: '2015-04-01'
+  startDate: '2015'
   url: https://www.kent.edu/
-- endDate: '2015-04-01'
+- endDate: '2015'
   highlights:
   - Implemented four-node VMware vCenter environment for college and migrated virtual machines. This allowed the decommissioning of 35 physical servers.
   - Created additional 90 servers on this vCenter environment, maintaining ongoing support and updates.
@@ -173,5 +172,5 @@ work:
   - Progressive promotions starting at IT User Support Analyst to IT Manager
   name: Kent State University
   position: IT Manager, College of Arts and Sciences
-  startDate: '2006-06-01'
+  startDate: '2006'
   url: https://www.kent.edu/
