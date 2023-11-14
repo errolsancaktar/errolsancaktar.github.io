@@ -21,6 +21,7 @@ meta:
 education:
 - area: Bachelor of Arts
   institution: Kent State University
+  endDate: None
 certificates:
 - name: Terraform Associate
   date: '2023'
